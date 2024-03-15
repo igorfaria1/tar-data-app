@@ -10,11 +10,11 @@
             @csrf
             <div>
                 <label for="newest_file">Arquivo CSV Mais Recente:</label>
-                <input type="file" name="newest_file" id="newest_file">
+                <input type="file" name="newest_file" id="newest_file" required="true">
             </div>
             <div>
                 <label for="oldest_file">Arquivo CSV Antigo:</label>
-                <input type="file" name="oldest_file" id="oldest_file">
+                <input type="file" name="oldest_file" id="oldest_file" required="true">
             </div>
             <button type="submit">Comparar Arquivos</button>
         </form>
